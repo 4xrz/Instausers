@@ -4,3 +4,4 @@ a4a
 kvsqlite
 user-agent
 requests
+flask
