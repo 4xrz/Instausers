@@ -3,7 +3,8 @@ from telebot import *
 from kvsqlite.sync import Client
 from a4a import *
 from time import sleep
-
+from keep_alive import keep_alive
+keep_alive()
 i = Client('oao.hex')
 k = 'oao'
 get = i.get(k)
@@ -86,7 +87,7 @@ def sts(m):
 					h8 = f'''
 				تم صيد يوزر جديد : `{kkl}` \n@j_tja | @AboMlakk ,
 				'''
-					bot.send_message(m.chat.id,text=f'				تم صيد يوزر جديد : @{kkl} \n@j_tja | @AboMlakk ,',parse_mode='markdown')
+					bot.send_message(m.chat.id,text=f'				تم صيد يوزر جديد : @{kkl} \n@j_tja | @AboMlakk ,')
 				else:
 					fail = f'''
 				غير متاح {kkl} ❌
