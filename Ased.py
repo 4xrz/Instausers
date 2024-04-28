@@ -2,14 +2,14 @@ import telebot
 from telebot import *
 from kvsqlite.sync import Client
 from a4a import *
-from time import sleep
+from time import slee
 from keep_alive import keep_alive
 keep_alive()
 i = Client('oao.hex')
 k = 'oao'
 get = i.get(k)
 
-bot = telebot.TeleBot('7076927531:AAFnj7bPvsw1JZD7NAEGQk6Ls2Fis2j-3oY')
+bot = telebot.TeleBot("7076927531:AAFqEkNzxRS0txKy77CGbUu5gHb4KZ-IUxY")
 
 
 jk = types.InlineKeyboardMarkup(row_width=3)
