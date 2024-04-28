@@ -2,3 +2,5 @@ telebot
 pyTelegramBotAPI
 a4a
 kvsqlite
+user-agent
+requests
