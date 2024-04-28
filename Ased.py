@@ -2,7 +2,7 @@ import telebot
 from telebot import *
 from kvsqlite.sync import Client
 from a4a import *
-from time import slee
+from time import sleep
 from keep_alive import keep_alive
 keep_alive()
 i = Client('oao.hex')
