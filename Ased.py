@@ -72,11 +72,8 @@ def sts(m):
 				liiii = f'{a}{a}{b}{b}{c}'
 				lu = f'{a}{a}{a}{c}{d}'
 				luu = f'{a}{b}{c}{c}{c}'
-				lpp = f'{a}.{f}.{e}' 
-				lppp = f'{a}.{f}_{e}'
-				lpppp = f'{a}_{f}_{e}'  
-				loi = f'{a}_{f}.{e}'
-				lis = [li,lii,liii,liiii,lu,luu,lpp,lppp,lpppp,loi]
+				
+				lis = [li,lii,liii,liiii,lu,luu]
 				kkl = random.choice(lis)
 				req = requests.post('https://www.instagram.com/api/v1/web/accounts/web_create_ajax/attempt/',headers ={'Host':'www.instagram.com',
 'content-length':'85',
