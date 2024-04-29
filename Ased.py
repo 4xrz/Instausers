@@ -10,7 +10,7 @@ i = Client('oao.hex')
 k = 'oao'
 get = i.get(k)
 
-bot = telebot.TeleBot('6844093093:AAFHEXSt1teojra5muR30eQOPPQf-FD6zoQ')
+bot = telebot.TeleBot('6844093093:AAFZWsbkqfDCCKFY3Gb6BWpTfogfM7LNDhE')
 
 
 jk = types.InlineKeyboardMarkup(row_width=3)
