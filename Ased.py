@@ -3,13 +3,14 @@ from telebot import *
 from kvsqlite.sync import Client
 from a4a import *
 from time import sleep
-from keep_alive import keep_alive
+from keep_alive import  keep_alive
 keep_alive()
+
 i = Client('oao.hex')
 k = 'oao'
 get = i.get(k)
 
-bot = telebot.TeleBot("7076927531:AAFqEkNzxRS0txKy77CGbUu5gHb4KZ-IUxY")
+bot = telebot.TeleBot('7076927531:AAFqEkNzxRS0txKy77CGbUu5gHb4KZ-IUxY')
 
 
 jk = types.InlineKeyboardMarkup(row_width=3)
@@ -71,15 +72,11 @@ def sts(m):
 				liiii = f'{a}{a}{b}{b}{c}'
 				lu = f'{a}{a}{a}{c}{d}'
 				luu = f'{a}{b}{c}{c}{c}'
-				lo = f'{j}{g}{h}{i}_'
-				loo = f'_{g}{h}{j}{i}'
-				looo = f'{j}{g}.{i}{h}'
-				lp=f'{j}{g}_{i}{h}'
 				lpp = f'{a}.{f}.{e}' 
 				lppp = f'{a}.{f}_{e}'
 				lpppp = f'{a}_{f}_{e}'  
 				loi = f'{a}_{f}.{e}'
-				lis = [li,lii,liii,liiii,lu,luu,lo,loo,looo,lp,lpp,lppp,lpppp,loi]
+				lis = [li,lii,liii,liiii,lu,luu,lpp,lppp,lpppp,loi]
 				kkl = random.choice(lis)
 				h = check_insta_users(kkl)
 				
